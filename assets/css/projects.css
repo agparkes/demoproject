@@ -1,0 +1,175 @@
+
+html,
+body,
+.cover {
+    height: 100%;
+}
+
+nav.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0;
+}
+
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+}
+
+.cover {
+    background: url('../img/CupOfCoffee.jpeg') top left no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;   
+    display: table;
+    width: 100%;
+    padding: 10% 10%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+.cover-text {
+    text-align: center;
+    color: #6f4e37;
+    vertical-align: middle;
+    padding-top: 170px;   
+    opacity: 0;
+	margin: 100px auto 0;
+	animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
+}
+
+.cover-text h1 {
+    margin: 0 auto;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+h2 + p {
+    text-align: center;
+    margin-top: -60px;
+}
+
+#tac {
+    padding-top: 20px;
+}
+
+.tic-tac-img {
+	width: 30%;
+    height: 30%;
+	float: left;
+	margin: 1.66%
+}
+
+#tic-tac {
+	font-family: Open Sans;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+}
+
+.row {
+   display: flex; 
+    flex-wrap: wrap;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+footer a {
+    color: hotpink;
+}
+
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {   
+.cover {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background: url('../img/CupOfCoffee.jpeg');
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

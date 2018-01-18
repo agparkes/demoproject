@@ -1,0 +1,163 @@
+html,
+body,
+.cover {
+    height: 100%;
+}
+
+.cover {
+    background: url('../img/CupOfCoffee.jpeg') top left no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100%; 
+    display: table;
+    width: 100%;
+    padding: 10% 10%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+.cover-text {
+    text-align: center;
+    color: #6f4e37;
+    vertical-align: middle;
+    padding-top: 170px;   
+    opacity: 0;
+	margin: 100px auto 0;
+	animation: 1s slidefade 1s forwards;
+}
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
+}
+
+.cover-text h1 {
+    margin: 0 auto;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+.lead {
+    font-size: 24px;
+}
+
+nav.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0;
+}
+
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+}
+
+.quote {
+    background: #222;
+}
+
+blockquote {
+    border: none;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-size: 32px;
+    color: white;
+    margin: 20px 0px;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+    margin-top: 40px;
+}
+
+section {
+    padding: 100px;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+h2 + p {
+    text-align: center;
+    margin-top: -60px;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+footer a {
+    color: hotpink;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) { 
+    .template-page .entry-content-wrapper h1 { 
+        font-size: 24px; 
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {   
+.cover {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background: url('../img/CupOfCoffee.jpeg');
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

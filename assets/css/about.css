@@ -1,0 +1,25 @@
+/* styling about.html */
+body {
+    padding-top: 75px;  
+    position: relative;
+    height: 100%;
+}
+
+.container-fluid {
+    margin: 20px 300px 20px;
+}
+
+.small-box {
+    width: 350px;
+}
+
+
+img {
+    transform: rotate(90deg);
+    width: 350px;
+    padding: 240px 0 40px;
+    margin-left: 40px;
+}
+
+
+
